@@ -18,7 +18,13 @@ else:
     
 
 # Задание №2
-
+def isPalindrom(word):
+     return word == word[::-1]
+     user_imput = input("Ввод слов:")
+     words user_input.split(',')
+     for word in ["".join(filter(str.isalpha, w)) for w in text.split(" ")]:
+          print("palidrome") if word.lover()[::-1] else print("not palidrome")
+          print("Палидром: ")
 # Задание: Написать программу, которая принимает список слов и проверяет, какие из них являются палиндромами.
 # Условия:
 
